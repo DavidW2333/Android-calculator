@@ -12,7 +12,9 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">@color/white</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:fontFamily">casual</item>
+
         <item name="android:textColor">@color/black</item>
 
 
@@ -24,8 +26,10 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">@null</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/rosy_brown</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+
+        <item name="android:textColor">@color/fire_brick</item>
         <item name="android:onClick">"operatorAction"</item>
 
 

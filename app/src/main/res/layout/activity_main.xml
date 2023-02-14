@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@color/light_grey"
     tools:ignore="HardcodedText"
     tools:context=".MainActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -54,6 +54,7 @@
             android:text="AC"
             android:textColor="@color/black"
             android:layout_weight="1.5"
+            app:cornerRadius="36dp"
             android:onClick="clearAllAction"/>
 
         <Button
@@ -159,7 +160,7 @@
             android:layout_weight="2"
             android:text="="
             android:onClick="resultAction"
-            android:background="@color/salmon"/>
+            android:background="@color/light_steel_blue"/>
 
 
     </LinearLayout>
